@@ -14,7 +14,6 @@ export default class BackTop extends React.Component {
       const osTop = document.body.scrollTop || document.documentElement.scrollTop;
 
       if (osTop >= clientHeight) {
-        console.log(osTop, clientHeight)
         slide_btn.style.display = 'block';
       } else {
         slide_btn.style.display = 'none';

@@ -34,13 +34,13 @@ class Content extends React.Component {
                   <a href='' className={style.avatar}>
                     <img src={pic1} alt='' />
                   </a>
-                  <a href='' className={style.follow}><span className="iconfont icon-jia">关注</span></a>
+                  <a href='' className={style.follow}><span className="iconfont icon-jia" style={{ fontSize: 14 }}>关注</span></a>
                   <a href='' className={style.name}>简书大学堂</a>
                   <p>写了1506.3k字 · 34k喜欢</p>
                 </li>
                 <li>
                   <a href='' className={style.avatar}><img src={pic1} alt='' /></a>
-                  <a href='' className={style.follow}><span className="iconfont icon-jia">关注</span></a>
+                  <a href='' className={style.follow}><span className="iconfont icon-jia" style={{ fontSize: 14 }}>关注</span></a>
                   <a href='' className={style.name}>徐林Grace</a>
                   <p>写了675.2k字 · 6.2k喜欢</p>
                 </li>
@@ -48,7 +48,7 @@ class Content extends React.Component {
                   <a href='' className={style.avatar}>
                     <img src={pic2} alt='' />
                   </a>
-                  <a href='' className={style.follow}><span className="iconfont icon-jia">关注</span></a>
+                  <a href='' className={style.follow}><span className="iconfont icon-jia" style={{ fontSize: 14 }}>关注</span></a>
                   <a href='' className={style.name}>无限猴子</a>
                   <p>写了383.1k字 · 2k喜欢</p>
                 </li>
@@ -56,13 +56,13 @@ class Content extends React.Component {
                   <a href='' className={style.avatar}>
                     <img src={pic3} alt='' />
                   </a>
-                  <a href='' className={style.follow}><span className="iconfont icon-jia">关注</span></a>
+                  <a href='' className={style.follow}><span className="iconfont icon-jia" style={{ fontSize: 14 }}>关注</span></a>
                   <a href='' className={style.name}>梅拾樱</a>
                   <p>写了273.6k字 · 25.3k喜欢</p>
                 </li>
                 <li>
                   <a href='' className={style.avatar}><img src={pic1} alt='' /></a>
-                  <a href='' className={style.follow}><span className="iconfont icon-jia">关注</span></a>
+                  <a href='' className={style.follow}><span className="iconfont icon-jia" style={{ fontSize: 14 }}>关注</span></a>
                   <a href='' className={style.name}>写写心情的溜溜妈</a>
                   <p>写了672k字 · 28.9k喜欢</p>
                 </li>
