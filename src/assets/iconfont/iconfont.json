@@ -1,0 +1,93 @@
+{
+  "id": "1268950",
+  "name": "简书icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "554106",
+      "name": "搜索",
+      "font_class": "iconset0157",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "579291",
+      "name": "赏",
+      "font_class": "money",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "609715",
+      "name": "心",
+      "font_class": "heart",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "609757",
+      "name": "字体",
+      "font_class": "zitifont5",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    },
+    {
+      "icon_id": "792344",
+      "name": "moon-b-月亮",
+      "font_class": "moonbyueliang",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "1071082",
+      "name": "评论2",
+      "font_class": "comment",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "1221890",
+      "name": "钻石",
+      "font_class": "diamond",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "1920285",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "3091985",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e776",
+      "unicode_decimal": 59254
+    },
+    {
+      "icon_id": "5201483",
+      "name": "换一批",
+      "font_class": "huanyipi",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "9512485",
+      "name": "右箭头",
+      "font_class": "arrowRight-fill",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "9512495",
+      "name": "左箭头",
+      "font_class": "arrowLeft-fill",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}
