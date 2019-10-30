@@ -1,12 +1,12 @@
 
 @param: none;
-.aStyle(@param){
+.aStyle(@param) {
   float: right;
   text-align: center;
   text-decoration: @param;
 }
 
-.navName{
+.navName {
   top: 0;
   margin-top: 0;
   background: #fff;
@@ -15,197 +15,202 @@
   right: 0;
   border-bottom: 1px solid #eee;
   z-index: 100;
-  li{
+  li {
     list-style: none;
-    &:first-child{
-      a{
+    &:first-child {
+      a {
         color: #ea6f5a;
       }
     }
   }
-  .logo{
-      float: left;
-      height: 56px;
+  .logo {
+    float: left;
+    height: 56px;
   }
-  .signUp, .logIn, .writes{
+  .signUp,
+  .logIn,
+  .writes {
     padding: 6px 12px;
     font-size: 15px;
     float: right;
   }
-  a{
-      display: block;
-      position: relative;
-      padding: 18px;
-      text-decoration: none;
-      color: black;
+  a {
+    display: block;
+    position: relative;
+    padding: 18px;
+    text-decoration: none;
+    color: black;
   }
-  .container{
-      width: 960px;
-      margin-right: auto;
-      margin-left: auto;
-      padding-left: 15px;
-      padding-right: 15px;
-      li{
-          float: left;
-          margin-right: 10px;
-      }
+  .container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    li {
+      float: left;
+      margin-right: 10px;
+    }
   }
-  .btn{
-      padding: 6px 12px;
-      font-size: 15px;
+  .btn {
+    padding: 6px 12px;
+    font-size: 15px;
   }
-  .writes, .signUp, .logIn{
-      .aStyle(none);
+  .signUp,
+  .logIn {
+    color: #969696;
+    .aStyle(none);
+  }
+  .signUp {
+    width: 55px;
+    height: 24px;
+    line-height: 24px;
+    margin: 9px 5px 0 15px;
+    border: 1px solid rgba(236, 97, 73, 0.7);
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ea6f5a;
+    background-color: transparent;
+    &:hover {
+      background: rgb(245, 212, 200);
+    }
+  }
+  .writes {
+    width: 70px;
+    height: 27px;
+    line-height: 24px;
+    margin: 8px 12px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ea6f5a;
+    .aStyle(none);
+  }
+  .logIn {
+    margin: 11px 6px 0 10px;
+  }
+  .beta {
+    cursor: pointer;
+    height: 25px;
+  }
+  .tab {
+    display: block;
+    float: right;
+    .icFont {
       color: #969696;
+      font-size: 30px;
+      font-weight: bold;
+    }
   }
-  .signUp{
-      width: 55px;
-      height: 24px;
-      line-height: 24px;
-      margin: 9px 5px 0 15px;
-      border: 1px solid rgba(236,97,73,.7);
-      border-radius: 20px;
-      font-size: 15px;
-      color: #ea6f5a;
-      background-color: transparent;
-      &:hover{
-          background: rgb(245, 212, 200);
-      }
-  }
-  .writes{
-      width: 70px;
-      height: 27px;
-      line-height: 24px;
-      margin: 8px 12px 0;
-      border-radius: 20px;
-      font-size: 15px;
-      color: #fff;
-      background-color: #ea6f5a;
-  }
-  .logIn{
-      margin: 11px 6px 0 10px;
-  }
-  .beta{
-      cursor: pointer;
-      height: 25px;
-  }
-  .tab{
-      display: block;
-      float: right;
-      .icFont{
-          color: #969696;
-          font-size: 30px;
-          font-weight: bold;
-      }
-  }
-  .betaTab{
-    .tab();
+  .betaTab {
     padding: 13px;
-  }
-  .fontTab{
     .tab();
-      padding: 10px;
-      font-size: 14px;
-      color: #969696;
-      .AaStyle{
-          position: absolute;
-          top: 57px;
-          right: -26px;
-          z-index: 1;
-          padding: 20px 20px 20px 24px;
-          border-radius: 4px;
-          box-shadow: 0 0 15px rgba(0, 0, 0, .1);
-          min-width: 195px;
-          display: none;
-          background: #fff;
-          &:before,&:after{
-              position: absolute;
-              top: -10px;
-              left: 78%;
-              content: "";
-              display: inline-block;
-              border: 9px solid transparent;
-              border-top: none;
-          }
-          &:after{
-              top: -9px;
-              border-bottom: 10px solid #fff;
-          }
-          .iconfont{
-              margin-right: 5px;
-              font-size: 17px;
-          }
-          .openClose{
-              display: inline;
-          }
-          .night{                 
-              width: auto;
-              vertical-align: middle;
-              display: inline-block;
-              margin-left: 16px;
-              .switchGroupBtn{
-                  width: 15%;
-              }
-          }
-          .switchGroupBtn{
-              width: 34%;
-              text-align: center;
-              font-size: 14px;
-              letter-spacing: 0!important;
-              color: #969696;
-              border: 1px solid #e5e5e5;
-              vertical-align: middle;
-              display: inline-block;
-              &:first-child{
-                  padding: 10px 13px 10px 17px;
-                  border-radius: 20px 0 0 20px;
-                  border-right: none;
-              }
-              &:last-child{
-                  padding: 10px 17px 10px 13px;
-                  border-radius: 0 20px 20px 0;
-                  border-left: none;
-              }
-          }
-          .switchGroup{
-              font-size: 0;
-              letter-spacing: -4px;
-              margin-bottom: 8px;
-          }
-          .fontChange{
-              margin-bottom: 10px;
-          }
-          .active{
-              color: #fff;
-              background-color: #6dacf4;
-              border-color: #6dacf4;
-              box-shadow: inset 0 0 6px rgba(0,0,0,.1);
-          }
-      }
-      hr{
-          margin: 20px -20px;
-          border-color: #eee;
-          border: 0;
-          border-top: 1px solid #eee;
-      }
   }
-  .download-btn{
-      a:hover{
-          background: #eee;
+  .fontTab {
+    padding: 10px;
+    font-size: 14px;
+    color: #969696;
+    .tab();
+    .AaStyle {
+      position: absolute;
+      top: 57px;
+      right: -26px;
+      z-index: 1;
+      padding: 20px 20px 20px 24px;
+      border-radius: 4px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      min-width: 195px;
+      display: none;
+      background: #fff;
+      &:before,
+      &:after {
+        position: absolute;
+        top: -10px;
+        left: 78%;
+        content: "";
+        display: inline-block;
+        border: 9px solid transparent;
+        border-top: none;
       }
+      &:after {
+        top: -9px;
+        border-bottom: 10px solid #fff;
+      }
+      .iconfont {
+        margin-right: 5px;
+        font-size: 17px;
+      }
+      .openClose {
+        display: inline;
+      }
+      .night {
+        width: auto;
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 16px;
+        .switchGroupBtn {
+          width: 15%;
+        }
+      }
+      .switchGroupBtn {
+        width: 34%;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 0 !important;
+        color: #969696;
+        border: 1px solid #e5e5e5;
+        vertical-align: middle;
+        display: inline-block;
+        &:first-child {
+          padding: 10px 13px 10px 17px;
+          border-radius: 20px 0 0 20px;
+          border-right: none;
+        }
+        &:last-child {
+          padding: 10px 17px 10px 13px;
+          border-radius: 0 20px 20px 0;
+          border-left: none;
+        }
+      }
+      .switchGroup {
+        font-size: 0;
+        letter-spacing: -4px;
+        margin-bottom: 8px;
+      }
+      .fontChange {
+        margin-bottom: 10px;
+      }
+      .active {
+        color: #fff;
+        background-color: #6dacf4;
+        border-color: #6dacf4;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+    hr {
+      margin: 20px -20px;
+      border-color: #eee;
+      border: 0;
+      border-top: 1px solid #eee;
+    }
+  }
+  .download-btn {
+    a:hover {
+      background: #eee;
+    }
   }
 }
 
-.slideBtn{
-    display: none;
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    .btn{
-        padding: 13px 18px;
-        border: 1px solid #dcdcdc;
-        &:hover{
-            background: #eee;
-        }
+.slideBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  .btn {
+    padding: 13px 18px;
+    border: 1px solid #dcdcdc;
+    &:hover {
+      background: #eee;
     }
+  }
 }
